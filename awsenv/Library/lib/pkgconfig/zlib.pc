@@ -1,0 +1,13 @@
+prefix=D:/deeplearning/AI_projects/AWS_Rag_application/awsenv/Library
+exec_prefix=D:/deeplearning/AI_projects/AWS_Rag_application/awsenv/Library
+libdir=D:/deeplearning/AI_projects/AWS_Rag_application/awsenv/Library/lib
+sharedlibdir=D:/deeplearning/AI_projects/AWS_Rag_application/awsenv/Library/lib
+includedir=D:/deeplearning/AI_projects/AWS_Rag_application/awsenv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
